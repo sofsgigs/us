@@ -186,8 +186,8 @@ nav {
     font-weight: 200;
 }
 .top-parallax-text {
-    position: relative;
-    top: 50px;
+    position: relative !important;
+    top: 90px !important;
 }
 .top-parallax-container {
     height: 460px !important;
