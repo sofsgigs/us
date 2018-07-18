@@ -1,0 +1,254 @@
+/* # */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Roboto');
+    /* font-family: 'Roboto', sans-serif;
+       font-family: 'Fira Sans Condensed', sans-serif; */
+
+/* A */
+
+/* B */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.brand-logo {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #E53935 !important;
+    margin-left: 270px !important;
+}
+@media only screen and (max-width: 992px) {
+    .brand-logo {
+        margin-left: 0px !important;
+    }
+}
+.button-collapse {
+    color: #E53935 !important;
+}
+blockquote {
+    border-color: #E53935 !important;
+}
+.badge {
+    border: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: none;
+    padding: 0px 0.5rem;
+    background: #fff;
+    cursor: default;
+}
+
+/* C */
+.container-fluid {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.center-align {
+    text-align: center;
+}
+.collapsible-header h5 {
+    position: relative;
+    top: 3.5px;
+}
+
+/* D */
+.divider {
+    margin-bottom: 10px;
+}
+
+/* E */
+
+/* F */
+footer {
+    margin-left: 300px !important;
+    background: #EF5350 !important;
+}
+@media only screen and (max-width: 992px) {
+    footer {
+        margin-left: 0px !important;
+    }
+}
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* G */
+
+/* H */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+.horizontal {
+    height: 140px !important;
+}
+
+/* I */
+.indent {
+    text-indent: 4%;
+}
+.instrument-icon {
+    border-color: #E53935;
+    border-width: 2px;
+    border-style: solid;
+    position: relative;
+    right: 46px;
+    background: #fff;
+}
+
+/* J */
+
+/* K */
+
+/* L */
+.light {
+    font-weight: 300;
+}
+
+/* M */
+main {
+    flex: 1 0 auto;
+    margin-left: 300px !important;
+}
+@media only screen and (max-width: 992px) {
+    main {
+        margin-left: 0px !important;
+    }
+}
+.modal {
+    max-height: 800px !important;
+}
+
+/* N */
+nav {
+    background: #fff;
+}
+
+/* O */
+
+/* P */
+.parallax-container {
+    height: 200px !important;
+    margin-bottom: 20px;
+}
+.parallax-container h1 {
+    position: relative;
+    top: 10px;
+}
+.player-card-image {
+    width: 108px !important;
+}
+
+/* Q */
+
+/* R */
+
+/* S */
+#sidenav-overlay {
+    z-index: 990 !important;
+}
+.side-nav li a {
+    font-weight: 300 !important;
+}
+.side-nav .userInfo {
+    position: relative;
+    top: 55px;
+}
+.side-nav .userInfo a.other {
+    font-size: 13px;
+    font-weight: 500 !important;
+    display: block;
+    padding: 0px;
+}
+.side-nav .userInfo a.other:hover {
+    background: transparent;
+}
+.side-nav .userInfo span.name {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+}
+.side-nav li.userView {
+    background-image: url(../images/spoon-userview.png);
+    height: 150px;
+    background-size: cover;
+}
+.side-nav.fixed .userInfo{
+    position: relative;
+    top: 45px;
+}
+
+/* T */
+
+.thin {
+    font-weight: 200;
+}
+.top-parallax-text {
+    position: relative;
+    top: 50px;
+}
+.top-parallax-container {
+    height: 460px !important;
+}
+@media only screen and (max-width: 768px) {
+    .top-parallax-container {
+        height: 300px !important;
+    }
+}
+ul.tabs {
+    margin-bottom: 15px;
+}
+.tabs .tab a {
+    color: #000 !important;
+}
+.tabs .tab a:hover {
+    color: #616161 !important;
+}
+.tabs .indicator {
+    background-color: #000 !important;
+}
+.table-of-contents a.active {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    border-left: none;
+    padding-left: 32px;
+}
+.table-of-contents li.userView a:hover {
+    color: #000;
+    border-left: none;
+}
+.table-of-contents li.contact-link a:hover {
+    color: #000;
+    border-left: none;
+    padding-left: 32px;
+}
+.table-of-contents li a:hover {
+    color: #000;
+    background: #fff;
+    padding-left: 32px;
+}
+.table-of-contents li.collapsible-nav a:hover {
+    padding-left: 16px;
+}
+.table-of-contents li.collapsible-nav a.active {
+    padding-left: 16px;
+}
+.table-of-contents .divider {
+    padding: 0px;
+}
+
+/* U */
+
+/* V */
+.video-container {
+    margin-bottom: 10px;
+}
+
+/* W */
+
+/* X */
+
+/* Y */
+
+/* Z */

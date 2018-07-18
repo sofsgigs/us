@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Spoonful of Sarcasm</title>
+        <!-- Letting the browser know that the website is optimized for mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Materialize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <!-- Import Google Icon Font -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Custom Styling -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav class="">
+                <div class="nav-wrapper container-fluid">
+                        <a href="#home" class="brand-logo">spoonful of sarcasm</a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="side-nav table-of-contents" id="mobile-demo">
+                        <li class="userView">
+                            <div class="userInfo">
+                                <span class="name">Spoonful of Sarcasm</span>
+                                <a class="other white-text tooltipped" data-position="bottom" data-delay="10" data-tooltip="Email us!" href="mailto:sofsgigs@gmail.com">sofsgigs@gmail.com</a>
+                            </div>
+                        </li>
+                        <li class="collapsible-nav"><a href="#home">The Band</a></li>
+                        <li class="collapsible-nav"><a href="#latestrelease">Latest Release</a></li>
+                        <li class="collapsible-nav"><a href="#previousgigs">Previous Gigs</a></li>
+                        <li class="collapsible-nav"><a href="#scheduling">Scheduling</a></li>
+                        <li class="collapsible-nav"><a href="#socialmedia">Social Media</a></li>
+                        <li class="divider"></li>
+                        <li class="collapsible-nav contact-link"><a href="mailto:sfos@gmail.com">Contact</a></li>
+                    </ul>
+                </div>
+                <ul class="side-nav table-of-contents fixed" id="slide-out">
+                    <li class="userView">
+                        <div class="userInfo">
+                            <span class="name">Spoonful of Sarcasm</span>
+                            <a class="other white-text tooltipped" data-position="bottom" data-delay="10" data-tooltip="Email us!" href="mailto:sofsgigs@gmail.com">sofsgigs@gmail.com</a>
+                        </div>
+                    </li>
+                    <li><a href="#home">The Band</a></li>
+                    <li><a href="#latestrelease">Blog</a></li>
+                    <li><a href="#previousgigs">Previous Gigs</a></li>
+                    <li><a href="#scheduling">Scheduling</a></li>
+                    <li><a href="#socialmedia">Social Media</a></li>
+                    <li class="divider"></li>
+                    <li class="contact-link"><a href="mailto:sfos@gmail.com">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <section id="home" class="scrollspy">
+                <div class="parallax-container top-parallax-container valign-wrapper">
+                    <div class="valign row">
+                        <h1 class="header top-parallax-text center light white-text text-lighten-2">The Band</h1>
+                    </div>
+                    <div class="parallax"><img class="responsive-img" src="images/parallax1.jpg"></div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col s12" id="welcome-message">
+                            <p class="flow-text center-align">Welcome to the Spoonful of Sarcasm website! Here you can find out a little bit about us (the players), schedule us to perform our covers of great songs, and read our brand-new blog!</p>
+                        </div>
+                        <div class="col s12" id="bandPlayers">
+                            <div class="col l6 m6 s12">
+                                <div class="card horizontal">
+                                    <div class="card-image waves-block waves-effect waves-light player-card-image">
+                                        <img class="activator responsive-img" src="images/player-card-image.jpg">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content" id="card-content-1">
+                                            <img class="circle instrument-icon activator" style="z-index: 2;" src="icons/drums.png" title="Icon by Icons 8, link in the footer">
+                                            <h5 class="light activator truncate center" style="position: relative; bottom: 45px;">James Reedy</h5>
+                                            <button class="badge red-text center-block" style="position: relative; bottom: 45px;">Drummer</button>
+                                        </div>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">James Reedy<i class="material-icons right">close</i></span>
+                                        <blockquote style="margin-bottom: -10px"><i>Ummm, excuse me, it's called progressive metal.</i></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l6 m6 s12">
+                                <div class="card horizontal">
+                                    <div class="card-image waves-block waves-effect waves-light player-card-image">
+                                        <img class="activator responsive-img" src="images/player-card-image.jpg">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content" id="card-content-1">
+                                            <img class="circle instrument-icon activator" style="z-index: 2;" src="icons/mic.png" title="Icon by Icons 8, link in the footer">
+                                            <button class="badge red-text" style="position: relative; right: 35px;">Singer</button>
+                                            <h5 class="light activator truncate">Alex Vassilopolous</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">Alex Vassilopolous<i class="material-icons right">close</i></span>
+                                        <blockquote style="margin-bottom: -10px"><i>A one-line description that is yet to be found.</i></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l6 m6 s12">
+                                <div class="card horizontal">
+                                    <div class="card-image waves-block waves-effect waves-light player-card-image">
+                                        <img class="activator responsive-img" src="images/player-card-image.jpg">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content" id="card-content-1">
+                                            <img class="circle instrument-icon activator" style="z-index: 2;" src="icons/guitar.png" title="Icon by Icons 8, link in the footer">
+                                            <button class="badge red-text" style="position: relative; right: 35px;">Guitarist</button>
+                                            <h5 class="light activator truncate">Abhay Sharma</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">Abhay Sharma<i class="material-icons right">close</i></span>
+                                        <blockquote style="margin-bottom: -10px"><i>A one-line description that is yet to be found.</i></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l6 m6 s12">
+                                <div class="card horizontal">
+                                    <div class="card-image waves-block waves-effect waves-light player-card-image">
+                                        <img class="activator responsive-img" src="images/player-card-image.jpg">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content" id="card-content-1">
+                                            <img class="circle instrument-icon activator" style="z-index: 2;" src="icons/guitar.png" title="Icon by Icons 8, link in the footer">
+                                            <button class="badge red-text" style="position: relative; right: 35px;">Guitarist</button>
+                                            <h5 class="light activator truncate">Shardul Joshi</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">Shardul Joshi<i class="material-icons right">close</i></span>
+                                        <blockquote style="margin-bottom: -10px"><i>A one-line description that is yet to be found.</i></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l6 m6 s12">
+                                <div class="card horizontal">
+                                    <div class="card-image waves-block waves-effect waves-light player-card-image">
+                                        <img class="activator responsive-img" src="images/player-card-image.jpg">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content" id="card-content-1">
+                                            <img class="circle instrument-icon activator" style="z-index: 2;" src="icons/guitar.png" title="Icon by Icons 8, link in the footer">
+                                            <button class="badge red-text" style="position: relative; right: 35px;">Bassist</button>
+                                            <h5 class="light activator truncate">Noah Coyle</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">Noah Coyle<i class="material-icons right">close</i></span>
+                                        <blockquote style="margin-bottom: -10px"><i>He came, he's still here.</i></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 hide">
+                                <h5 class="center-align">Guest Player</h5>
+                            </div>
+                            <div class="col l6 m6 s12">
+                                <div class="card horizontal">
+                                    <div class="card-image waves-block waves-effect waves-light player-card-image">
+                                        <img class="activator responsive-img" src="images/player-card-image.jpg">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content" id="card-content-1">
+                                            <img class="circle instrument-icon activator" style="z-index: 2;" src="icons/saxophone.png" title="Icon by Icons 8, link in the footer">
+                                            <button class="badge red-text" style="position: relative; right: 35px;">Saxophonist</button>
+                                            <h5 class="light activator truncate">Luciano Robbins</h5>
+                                        </div>
+                                    </div>
+                                    <div class="card-reveal">
+                                        <span class="card-title grey-text text-darken-4">Luciano Robbins<i class="material-icons right">close</i></span>
+                                        <blockquote style="margin-bottom: -10px"><i>A one-line description that is yet to be found.</i></blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="latestrelease" class="scrollspy">
+                <div class="parallax-container valign-wrapper">
+                    <div class="valign row">
+                        <h1 class="header center light white-text text-lighten-2">Latest Release</h1>
+                    </div>
+                    <div class="parallax"><img src="images/parallax4.jpg"></div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <img src="images/liveatwemf.JPG" class="col l4 m4 s12">
+                        <div class="col l8 m8 s12"  style="padding-top: 25px;">
+                            <h5>Spoonful of Sarcasm - Live at WEMF</h5>
+                            <p><i>Released: July 2018</i><br>
+                            Spoonful of Sarcasm's first release ever. Recorded live while playing Red Sky, Sold My Soul, and Tease on WEMF radio. No studio magic here! Find it now on all platforms! Here are links to a few.</p>
+                            <a class="btn red" href="https://open.spotify.com/album/6HRxNGHCw10j9MafWCrk3v?si=F9NHZHeLQtqoOpB1Qt7cVw"><i class="fab fa-spotify"></i> Spotify</a>
+                            <a class="btn red" href="https://itunes.apple.com/us/album/live-at-wemf-single/1406563196"><i class="fab fa-apple"></i> Apple Music</a>
+                            <a class="btn red" href="https://play.google.com/store/music/album/Spoonful_of_Sarcasm_Live_at_Wemf?id=Bwtdjtbha2w6ne7ggk5shvs7624&hl=en"><i class="fab fa-google-play"></i> Google Play</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="previousgigs" class="scrollspy">
+                <div class="parallax-container valign-wrapper">
+                    <div class="valign row">
+                        <h1 class="header center light white-text text-lighten-2">Previous Gigs</h1>
+                    </div>
+                    <div class="parallax"><img src="images/parallax3.jpg"></div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row" id="tabs-content">
+                        <div class="col s12 tabs-section">
+                            <ul class="tabs">
+                                <li class="tab col s6 disabled"><a href="#tab3">Andover Youth Center Open Mic Night</a></li>
+                                <li class="tab col s3"><a href="#tab2" class="active">Hard Rock Cafe</a></li>
+                                <li class="tab col s3"><a href="#tab1">Real School of Music</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tab1" class="col s12">
+                        <div class="row">
+                            <div class="col l8 m8 s12">
+                                <div class="video-container">
+                                    <iframe src="https://www.youtube.com/embed/5bcgqntla3g" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col l4 m4 s12">
+                                <h5 class="light">Real School of Music</h5>
+                                <i>December 11, 2015</i><br>
+                                <a href="#performance1">Continue watching the performance</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab2" class="col s12">
+                        <div class="row">
+                            <div class="col l8 m8 s12">
+                                <div class="video-container">
+                                    <iframe src="https://www.youtube.com/embed/RIo_ftHN9E4" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col l4 m4 s12">
+                                <h5 class="light">Hard Rock Cafe Boston</h5>
+                                <i>December 10, 2016</i><br>
+                                <a href="#performance2">Continue watching the performance</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab3" class="col s12">
+                        <div class="row">
+                            <div class="col l8 m8 s12">
+                                <div class="video-container">
+                                    <iframe src="" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col l4 m4 s12">
+                                <h5 class="light">Andover Youth Center Open Mic Night</h5>
+                                <i>April 6, 2018</i><br>
+                                <a href="#performance3">Continue watching the performance</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="scheduling" class="scrollspy">
+                <div class="parallax-container valign-wrapper">
+                    <div class="valign row">
+                        <h1 class="header center light white-text text-lighten-2">Scheduling</h1>
+                    </div>
+                    <div class="parallax"><img src="images/parallax2.jpg"></div>
+                </div>
+                <div class="container-fluid">
+                    <p class="flow-text center-align">Please use the scheduling portal below (powered by Calendly) to find determine a time to have us play. We will get back to you as soon as possible to provide more details.</p>
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/sofsgigs" style="min-width:320px;height:400px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                    <!-- Calendly inline widget end -->
+                    <div class="row">
+                        <form class="col s12 hide">
+                            <div class="row">
+                                <div class="input-field col l6 m6 s12">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="name_input" type="text" class="validate">
+                                    <label for="name_input">Name</label>
+                                </div>
+                                <div class="input-field col l6 m6 s12">
+                                    <i class="material-icons prefix">phone</i>
+                                    <input id="phone_input" type="tel" class="validate">
+                                    <label for="phone_input">Cell Phone Number</label>
+                                </div>
+                                <div class="input-field col l3 m3 s12">
+                                    <i class="material-icons prefix">today</i>
+                                    <input id="date_input" type="date" class="validate datepicker" placeholder="Date of gig">
+                                </div>
+                                <div class="input-field col l9 m9 s12">
+                                    <i class="material-icons prefix">mail</i>
+                                    <input id="email_input" type="email" class="validate">
+                                    <label for="email_input">Email</label>
+                                </div>
+                                <button class="btn red right" onclick="confirmPerformance()">Schedule</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section id="socialmedia" class="scrollspy">
+                <div class="parallax-container valign-wrapper">
+                    <div class="valign row">
+                        <h1 class="header center light white-text text-lighten-2">Social Media</h1>
+                    </div>
+                    <div class="parallax"><img src="images/parallax5.jpg"></div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <img src="images/socialmedia.jpeg" class="col l5 m5 s12">
+                        <div class="col l7 m7 s12">
+                            <br>
+                            <h5>Follow us on social media for updates!</h5>
+                            <br>
+                            <div class="row">
+                                <a class="col z-depth-2 black-text" style="background: #EFEBE9; width: 30%;" href="https://www.instagram.com/spoonful_of_sarcasm/">
+                                    <h4 class="center"><i class="fab fa-instagram"></i></h4>
+                                    <p class="center-align">INSTAGRAM</p>
+                                </a>
+                                <div class="col" style="width: 5%"></div>
+                                <div class="col z-depth-2" style="background: #EFEBE9; width: 30%;">
+                                    <h4 class="center hide"><i class="fab fa-instagram"></i></h4>
+                                    <p class="center-align" style="margin-bottom: 25px;">More social media links coming soon</p>
+                                </div>
+                                <div class="col" style="width: 5%"></div>
+                                <div class="col z-depth-2 hide" style="background: #EFEBE9; width: 30%;">
+                                    <h4 class="center"><i class="fab fa-instagram"></i></h4>
+                                    <p class="center-align">INSTAGRAM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="page-footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l7 m7 s12">
+                        <h5 class="white-text">Spoonful of Sarcasm</h5>
+                        <p class="grey-text text-lighten-4">We hope you found what you were looking for. We can't wait for you to hear us play!</p>
+                    </div>
+                    <div class="col l5 m5 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="https://icons8.com/">The instrument icons used in this site (the drums set, guitar, microphone, and saxophone icons) were made by Icons 8. Go check them out!</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Spoonful of Sarcasm
+                    <a class="grey-text text-lighten-4 right" href="mailto:sharduljoshi@syntax-solutions.xyz">Webmaster</a>
+                </div>
+            </div>
+        </footer>
+        <div id="modals">
+            <div id="performance1" class="modal">
+                <div class="modal-content">
+                    <h5 class="light">Real School of Music<i class="material-icons right modal-action modal-close">close</i></h5>
+                    <h5 class="light"><small><i>December 11, 2015</i></small></h5>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/0G-6lHQ9Mmc" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div id="performance2" class="modal">
+                <div class="modal-content">
+                    <h5 class="light">Hard Rock Cafe Boston<i class="material-icons right modal-action modal-close">close</i></h5>
+                    <h5 class="light"><small><i>December 10, 2016</i></small></h5>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/rWlVz_1OmA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/MKF4Gkll8e" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div id="performance3" class="modal">
+                <div class="modal-content">
+                    <h5 class="light">Andover Youth Center Open Mic Night<i class="material-icons right modal-action modal-close">close</i></h5>
+                    <h5 class="light"><small><i>April 6, 2018</i></small></h5>
+                    <div class="video-container">
+                        <iframe src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="schedulingportalmodal" class="modal">
+            <div class="modal-content">
+                <h5 class="light">Scheduling<i class="material-icons right modal-action modal-close">close</i></h5>
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/sofsgigs" style="min-width:320px;height:400px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                <!-- Calendly inline widget end -->
+            </div>
+        </div>
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <!-- Materialize JS Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+        <!-- Scripts.js for scheduling -->
+        <script src="js/scripts.js"></script>
+        <!-- Init JS -->
+        <script src="js/init.js"></script>
+    </body>
+</html>
